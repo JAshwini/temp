@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div class='main-container'>
+        <div class='inner-container1'>
+            <div class='inner-item1'>inner-item1</div>
+            <div class='inner-item2'>inner-item2</div>
+        </div>
+        <div class='inner-container2'>
+            <div class='inner-item1'>inner-item1</div>
+            <div class='inner-item2'>inner-item2</div>
+        </div>
+    </div>
+</body>
+<style>
+    .inner-item1 {
+        background-color: #7b9de6;
+    }
+
+    .inner-item2 {
+        background-color: #e27be6;
+    }
+
+    .main-container {
+        display: flex;
+        height: 150px;
+        flex-wrap: wrap;
+        width: device-width;
+    }
+
+    .inner-container1{
+        align-items: stretch;
+        width: 150px;
+    }
+    .inner-container2{
+        width: 150px;
+    }
+</style>
+</html>
